@@ -1,4 +1,4 @@
-﻿#if ENABLE_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM_PACKAGE
+#if ENABLE_INPUT_SYSTEM && ENABLE_INPUT_SYSTEM_PACKAGE
 #define USE_INPUT_SYSTEM
     using UnityEngine.InputSystem;
     using UnityEngine.InputSystem.Controls;
@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace UnityTemplateProjects
 {
-    public class SimpleCameraController : MonoBehaviour
+    public class SimpleCameraController : MonoBehaviour // Using monoBehaviour on this one
     {
         class CameraState
         {
